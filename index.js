@@ -16,3 +16,9 @@ let myTax=0.1;
 let secondTax=grossSalary*myTax;
 
 console.log("My second tax that depends on my gross salary is =" + secondTax + "$" );
+
+
+
+
+let takeHomePay= grossSalary-taxableAmount-secondTax;
+console.log("My take-home pay is =" +   takeHomePay + "$")
