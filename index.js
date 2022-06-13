@@ -14,7 +14,7 @@ let firstTax=0;
 console.log("The first tax is 0% tax on 0-80 dollar per month");
 
 
-let secondTax=(0.04 * (250-170));
+let secondTax=(0.04 * (250-80));
 
 console.log( "The second tax is 4% if you are paid between 80-250 $ so  it takes" +" "+ secondTax + "$");
 
